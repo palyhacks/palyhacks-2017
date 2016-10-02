@@ -38,9 +38,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
+            <!--<img src="logopng.png" style="width:500px;height:500px;">-->
             <div style="font-family: 'Arimo', serif; font-size: 40px; margin-top:10px; margin-bottom:10px;"><font color = "#FFFFFF"><center>P a l y H a c k s</center></font></div>
             <div style="font-family: 'Arimo', serif; font-size: 22px; margin-top:10px; margin-bottom:10px;"><font color = "#FFFFFF"><center>January 27 - 28, 2016 | Palo Alto High School</center></font></div>
-                <a href="https://palyhacks.typeform.com/to/pa790f" class="btn btn-primary btn-xl page-scroll" style = "border-radius:0%">Apply</a>
+                <a href="https://palyhacks.typeform.com/to/pa790f" class="btn btn-primary btn-xl page-scroll" style = "border-radius:0%; margin-top:20px">Apply</a>
                 </div>
             </div>
         </div>
@@ -56,8 +57,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="page-scroll" href="#about">About</a></li>
-                    <!--<li><a class="page-scroll" href="#schedule">Schedule</a></li>-->
-                    <!--<li><a class="page-scroll" href="#sponser">Sponsers</a></li>-->
+                    <li><a class="page-scroll" href="#schedule">Schedule</a></li>
+                    <li><a class="page-scroll" href="#sponsor">Sponsers</a></li>
                     <li><a class="page-scroll" href="#faq">FAQ</a></li>
                 </ul>
             </div>
@@ -123,7 +124,7 @@
     -->
     <section class="bg-dark" id="about">
         <div class="container">
-            <div class="row">
+            <div class="row" style = "margin-left:10%; margin-right:10%">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About</h2>
                     <hr class = "primary">
@@ -134,11 +135,49 @@
         </div>
     </section>
 
+    <section id="schedule"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 schedulemargins">
+                        <center><p class="text-muted" style = "font-size:18px; margin-bottom:5px">Day 1: January 27th</p></center>
+                        <center><p class="text-muted">TBD! Check back in December.</p></center>
+                </div>
+                <div class="col-lg-6">
+                        <center><p class="text-muted" style = "font-size:18px; margin-bottom:5px">Day 2: January 28th</p></center>
+                        <center><p class="text-muted">TBD! Check back in December.</p></center>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="sponsor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Sponsor</h2>
+                    <hr class = "primary">
+                    <p class="text-faded">Interested in being a sponsor? Check out our sponsorship package or send us an email at palyhacks@gmail.com!</p>
+                    <a href=sponsor.pdf class="btn btn-primary btn-xl page-scroll" style = "border-radius:0%; margin-top:20px">Sponsorship Package</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq"> 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                <!--<div class="col-lg-12 text-center">-->
                     <h2 class="section-heading">FAQ</h2>
                     <hr>
                 </div>
@@ -146,7 +185,7 @@
         </div>
 
 
-        <div class="container-fluid" style = "margin-left:100px; margin-right:100px">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                         <p class="text-muted">Q: What is a hackathon?</p>
@@ -192,13 +231,13 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
         <!--Footer-->
-    <aside class="bg-dark">
+    <section class="bg-dark">
         <div class="container">
-            <div style = "margin-left:100px; margin-right:100px">
-                <p>Made by PalyHacks team.</p>
+            <div>
+                <p style = "margin-left:10%; margin-right:10%">Made by PalyHacks team.</p>
             </div>
         </div>
-    </aside>
+    </section>
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
