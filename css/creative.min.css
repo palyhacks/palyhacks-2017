@@ -17,7 +17,7 @@ body{
 	webkit-tap-highlight-color:#222
 }
 .btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{
-	font-family:'Arimo','Helvetica Neue',Arial,sans-serif
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*Horizontal Line
