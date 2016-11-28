@@ -20,7 +20,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-/*Horizontal Line
+/*Horizontal Line*/
 hr{
 	border-color:#3A7942;
 	border-width:2px;
@@ -34,7 +34,7 @@ hr.primary{
 hr.light{
 	border-color:#fff
 	border-color:#FFFFFF;
-}*/
+}
 
 /*Links*/
 a{
