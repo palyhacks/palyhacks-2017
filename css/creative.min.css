@@ -6,12 +6,6 @@ body,html{
 	height:100%;
 	width:100%
 }
-
-#subtitle {
-	text-align:center;
-	color:gray;
-	font-size:100%;
-}
 body{
 	font-family:Arimo,'Helvetica Neue',Arial,sans-serif;
 	webkit-tap-highlight-color:#222
@@ -20,6 +14,8 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+<<<<<<< HEAD
+=======
 /*Horizontal Line*/
 hr{
 	border-color:#3A7942;
@@ -36,6 +32,7 @@ hr.light{
 	border-color:#FFFFFF;
 }
 
+>>>>>>> origin/master
 /*Links*/
 a{
 	transition:all .35s;
@@ -44,10 +41,21 @@ a{
 a:focus,a:hover{
 	color:#3A7942
 }
-/*text customization!*/
-p {
+
+/*Text Customization*/
+
+#subtitle {
+	color:rgba(0,0,0,0.6);
+	text-align:center !important;
+}
+#about p {
 	text-align:left;
-	color:rgba(0,0,0,0.7);
+}
+p{
+	font-size:100%;	
+	line-height:1.2;
+	color: rgba(0,0,0,0.7);
+	margin-bottom:20px
 }
 .text-faded{
 	color:rgba(255,255,255,.7)
@@ -61,7 +69,7 @@ section{
 	padding:25px 0
 }
 .bg-primary{
-	background-color:#428C4C
+	background-color:green;
 }
 .bg-dark{
 	background-color:green;
@@ -137,11 +145,11 @@ navbar-default .navbar-header .navbar-brand{
 }
 .navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{
 	color:#3A7942
-}
+}}
 
 /* Header*/
 header{
-	background: linear-gradient(rgba(27, 122, 20, 0.8), rgba(27, 122, 20, 0.8)),url('../img/Paly.JPG');
+	background-image: linear-gradient(rgba(27, 122, 20, 0.8), rgba(27, 122, 20, 0.8)),url('../img/Paly.JPG') !important;
 	position:relative;
 	width:100%;
 	text-align:center
@@ -154,7 +162,7 @@ header{
 	background-size:cover;
 }
 header .header-content{
-	padding:160px 15px
+	padding:100px 15px
 }
 header .header-content .header-content-inner h1{
 	font-weight:700;text-transform:uppercase;margin-top:0;margin-bottom:0;font-size:30px
@@ -168,7 +176,7 @@ header .header-content .header-content-inner p{
 @media (min-width:768px){header{
 	min-height:100%
 }
-header .header-conten{
+header .header-content{
 	position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);padding:0 50px
 }
 header .header-content .header-content-inner{
@@ -183,7 +191,7 @@ header .header-content .header-content-inner p{
 
 /* Nice GReen button */
 .btn-default.active,.btn-default:active,.btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-default,.open>.dropdown-toggle.btn-primary{
-	background-image:none;
+	background-image:none
 }
 .btn-default{
 	color:#222;background-color:#fff;border-color:#fff;transition:all .35s
@@ -201,7 +209,7 @@ header .header-content .header-content-inner p{
 	color:green;background-color:white;border-color:#49A154;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s
 }
 .btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{
-	color:#fff;background-color:#49A154;border-color:#ed431f
+	color:white;background-color:#49A154;border-color:#ed431f
 }
 .btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{
 	background-color:#35723D;border-color:#49A154
@@ -246,9 +254,7 @@ header .header-content .header-content-inner p{
 	}
 }
 
-.text-muted {
-	color:white;
-}
+
 ::-moz-selection{
 	color:#fff;text-shadow:none;background:#222
 }
@@ -261,22 +267,20 @@ img::selection{
 img::-moz-selection{
 	color:#fff;background:0 0
 }
-
-
-
 .faq {
-	background: linear-gradient( rgba(27, 122, 20, 0.9), rgba(27, 122, 20, 0.9)), url('../img/mac.jpg'), no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-mox-background-size:cover;
-	-o-background-size:cover;
-	-background-size:cover;
-	display:block;
-	background-size: cover !important;
+	background-image: linear-gradient(rgba(27, 122, 20, 0.8), rgba(27, 122, 20, 0.8)),url('../img/mac.jpg') !important;
+	position:relative;
+	width:100%;
+	color:white !important;
+	text-align:center
 	background-repeat: no-repeat;
+	background-position: center;
 	background-attachment: fixed;
-	color: white !important;
-	clear:both;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
 }
-
-
-
+.faq p {
+	color:white;
+}
