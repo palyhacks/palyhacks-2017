@@ -272,21 +272,15 @@ header .header-content .header-content-inner p{
     height: 150px;
     margin: -75px 0 0 -75px;
 
-    border: 3px solid #3498db;
-    z-index: 1500;
-
     border: 3px solid transparent;
     border-top-color: #3498db;
 
     border-radius: 50%;
 
-    -webkit-animation: spin 1.5s linear infinite;
-	animation: spin 1.5s linear infinite;
- 
-    border-radius: 50%;
-
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
+
+    z-index: 1001;
 }
 #loader:before {
     content: "";
@@ -300,11 +294,6 @@ header .header-content .header-content-inner p{
     border: 3px solid transparent;
     border-top-color: #e74c3c;
 
-    border-radius: 50%;
-
-    -webkit-animation: spin 1.5s linear infinite;
-	animation: spin 1.5s linear infinite;
- 
     border-radius: 50%;
 
     -webkit-animation: spin 3s linear infinite;
@@ -356,7 +345,7 @@ header .header-content .header-content-inner p{
     }
 }
 
-	#loader-wrapper .loader-section {
+#loader-wrapper .loader-section {
     position: fixed;
     top: 0;
     width: 51%;
@@ -373,9 +362,6 @@ header .header-content .header-content-inner p{
     right: 0;
 }
 
-#loader {
-    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
-}
 
 
 /* Loaded */
