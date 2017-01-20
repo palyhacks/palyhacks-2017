@@ -75,8 +75,7 @@ section{
 	background-color:green;
 	color:#fff
 }
-.schedulemargins{
-}
+
 
 .btn-default,.portfolio-box .portfolio-box-caption{
 	-webkit-transition:all .35s;
@@ -145,7 +144,8 @@ navbar-default .navbar-header .navbar-brand{
 }
 .navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{
 	color:#3A7942
-}}
+}
+}
 
 /* Header*/
 header{
