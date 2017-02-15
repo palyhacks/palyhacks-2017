@@ -1,2 +1,3 @@
 # palyhacks.github.io
-same 
+
+Repository for PalyHacks.

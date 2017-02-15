@@ -296,7 +296,7 @@ header .header-content .header-content-inner p{
 
     border-radius: 50%;
 
-    -webkit-animation: spin 3s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
     animation: spin 3s linear infinite;
 }
 #loader:after {
@@ -399,8 +399,8 @@ header .header-content .header-content-inner p{
             -ms-transform: translateY(-100%);
                 transform: translateY(-100%);
  
-        -webkit-transition: all 0.3s 0.6s ease-out; 
-                transition: all 0.3s 0.6s ease-out;
+        -webkit-transition: all 0.3s 0.3s ease-out; 
+                transition: all 0.3s 0.3s ease-out;
 }
 .loaded #loader-wrapper .loader-section.section-right,
 .loaded #loader-wrapper .loader-section.section-left {
@@ -413,8 +413,8 @@ header .header-content .header-content-inner p{
             -ms-transform: translateY(-100%);
                 transform: translateY(-100%);
  
-        -webkit-transition: all 0.3s 1s ease-out; 
-                transition: all 0.3s 1s ease-out;
+        -webkit-transition: all 0.3s 0.5s ease-out; 
+                transition: all 0.3s 0.5s ease-out;
 }
 /* end sketchy preloader */
 
