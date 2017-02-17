@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["Z+ojT"]); }
-
-__d('messengerBannerReact',['reactRe','utilsRe','bs_js_null_undefined','MessengerBanner.react'],(function a(b,c,d,e,f,g){'use strict';function h(i,j,k){var l={mobileAppInfo:i,initialPromotionData:c('bs_js_null_undefined').from_opt(j),isFirstRedirect:c('utilsRe').optionBoolToNullUndefinedBoolean(k)},m=c('MessengerBanner.react');return function(n,o,p,q){return c('reactRe').wrapPropsShamelessly(m,l,n,o,p,q);};}g.createElement=h;}),null);
