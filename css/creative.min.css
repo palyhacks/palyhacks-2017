@@ -451,3 +451,125 @@ img::-moz-selection{
 .faq p {
 	color:white;
 }
+
+
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(58,20,52,.9);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+.no-gutter > [class*=col-] {
+    padding-right: 1;
+    padding-left: 1;
+}
+
+        /* Login Popup */
+        /* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+ 
+    /* Inner */
+    .popup-inner {
+        max-width:700px;
+        width:90%;
+        padding:40px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        -webkit-transform:translate(-50%, -50%);
+        transform:translate(-50%, -50%);
+        box-shadow:0px 2px 6px rgba(0,0,0,1);
+        border-radius:3px;
+        background:#fff;
+    }
+     
+    /* Close Button */
+    .popup-close {
+        width:30px;
+        height:30px;
+        padding-top:4px;
+        display:inline-block;
+        position:absolute;
+        top:0px;
+        right:0px;
+        transition:ease 0.25s all;
+        -webkit-transform:translate(50%, -50%);
+        transform:translate(50%, -50%);
+        border-radius:1000px;
+        background:rgba(0,0,0,0.8);
+        font-family:Arial, Sans-Serif;
+        font-size:20px;
+        text-align:center;
+        line-height:100%;
+        color:#fff;
+    }
+     
+    .popup-close:hover {
+        -webkit-transform:translate(50%, -50%) rotate(180deg);
+        transform:translate(50%, -50%) rotate(180deg);
+        background:rgba(0,0,0,1);
+        text-decoration:none;
+    }
+    /* End Login Popup*/
