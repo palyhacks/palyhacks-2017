@@ -2,6 +2,7 @@ header,header,.header-content{
 	position:relative;width:100%;
 	text-align:center
 }
+
 body,html{
 	height:100%;
 	width:100%
@@ -14,8 +15,18 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
+.center {
+    text-align: center;
+}
+
+.schedule-text {
+    margin-bottom: 5px;
+}
+.schedule-row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /*Horizontal Line*/
 hr{
 	border-color:#3A7942;
@@ -31,8 +42,10 @@ hr.light{
 	border-color:#fff
 	border-color:#FFFFFF;
 }
+hr.halfLength {
+    width: 50%;
+}
 
->>>>>>> origin/master
 /*Links*/
 a{
 	transition:all .35s;
